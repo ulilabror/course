@@ -62,17 +62,17 @@
                   <div class="carousel-inner">
                      <div class="carousel-item">
                         <p class="banner_text">Programing Course</p>
-                        <h1 class="banner_taital">Any <br>language you wants</h1>
+                        <h1 class="banner_taital">Any <br>Course you wants</h1>
                         <div class="read_bt"><a href="#">Read More</a></div>
                      </div>
                      <div class="carousel-item">
                         <p class="banner_text">Programing Course</p>
-                        <h1 class="banner_taital">Any <br>language you wants</h1>
+                        <h1 class="banner_taital">Any <br>course you wants</h1>
                         <div class="read_bt"><a href="/admin/register">Register Now</a></div>
                      </div>
                      <div class="carousel-item active">
                         <p class="banner_text">Programing Course</p>
-                        <h1 class="banner_taital">Any <br>language you wants</h1>
+                        <h1 class="banner_taital">Any <br>cource you wants</h1>
                         <div class="read_bt"><a href="/admin/register">Register Now</a></div>
                      </div>
                   </div>

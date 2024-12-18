@@ -90,10 +90,10 @@ class KelasResource extends Resource
             ->actions([
                 /** @var App\Models\User $user */
                 EditAction::make()->visible(fn (Kelas $record) => Auth::user() && (
-                    Auth::id() === $record->created_by || $currentUser->isInstructor()
+                    Auth::id() === $record->created_by || $currentUser->isInstructor() || $currentUser->isAdmin()
                 )),
                 Tables\Actions\DeleteAction::make()->visible(fn (Kelas $record) => Auth::user() && (
-                    Auth::id() === $record->created_by || $currentUser->isInstructor()
+                    Auth::id() === $record->created_by || $currentUser->isInstructor() || $currentUser->isAdmin()
                 )),
                 Action::make('view')
                     ->label(__('Lihat Kelas'))
